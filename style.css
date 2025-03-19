@@ -1,0 +1,380 @@
+* {
+  box-sizing: border-box;
+  background-color: white;
+  font-family: Helvetica;
+  color: rgb(63, 32, 9);
+  font-size: 22px;
+  text-align: center;
+ 
+ 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+header {
+ 
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  height: 180px;
+  width: 100%;
+ 
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 0px;
+  padding: 0;
+  
+}
+
+
+header img {
+
+  height: 180px;
+  width: auto;
+  opacity: 0.9;
+  margin-left: 90px;
+  
+
+}
+
+header p {
+  border: 1px solid RED;
+  margin-left: 10px;
+  
+}
+
+header a {
+  color: rgb(63, 32, 9);
+  text-decoration: underline;
+  opacity: 0.9;
+  margin-right: 80px;
+}
+
+.nav {
+  padding-right: 15px;
+}
+
+body {
+ 
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+.mainpic {
+margin-top: 210px;  
+ /* The image used */
+ background-image: url("cc-interior.jpg");
+
+ /* Set a specific height */
+ min-height: 800px; 
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover; 
+ height: 100vh;
+ width: 100%;
+}
+
+.mainpic .caption {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
+  width: 30%;
+  left: 60%;
+  top: 10%;
+  padding: 10px;
+  padding-bottom: 10px;
+ 
+}
+.mainpic .caption h2, h4 {
+  background-color: transparent;
+}
+
+#about {
+  width: 80%;
+  
+  padding-top: 20px;
+  margin: auto;
+}
+
+#about img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+  opacity: 0.8;
+  border-radius: 3%;
+  padding: 20px;
+}
+
+#about .divid {
+  width: 100px;
+  height: auto;
+  
+}
+
+#about p {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  line-height: 1.5;
+}
+  
+.treat h2 {
+  margin-top: 10px;
+  padding-top: 0;
+  
+}
+
+.month {
+ 
+  width: 1000px;
+  height: auto;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 20px;
+}
+
+.col {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.col img {
+  height: 200px;
+  width: 300px;
+  opacity: 0.9;
+  object-fit: cover;
+}
+
+.small {
+  text-align: center;
+  margin: 10px;
+}
+
+.locations {
+ 
+  height: 500px;
+  width: 70%;
+  background-image: url('cc-crowded.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  margin: 50px auto 0;
+  opacity: 0.9;
+  color:#ffffffe6;
+  
+
+}
+
+.locations h2 {
+ 
+  background-color: transparent;
+  color: #ffffffe6;
+  padding-top: 40px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+}
+
+
+.containerloc {
+  display: inline-flex;
+  width: 100%;
+  margin: 15px 0;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  
+ 
+}
+
+.loc {
+  display: flex;
+  flex-direction: column;
+ 
+
+  background-color:	rgba(88, 63, 13, 0.8);
+  align-items: center;
+  justify-content: space-around;
+ 
+  height: 300px;
+  width: 30%;
+  margin: 0 20px;
+
+ 
+}
+
+.loc h3 {
+  line-height: normal;
+  color: seashell;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+.loc div, span {
+  color: seashell;
+  background-color: transparent;
+}
+
+
+footer {
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+  
+}
+
+footer h2 {
+  margin: 10px;
+}
+
+footer h5 {
+  margin-bottom: 10px;
+  padding-bottom: 0;
+  
+}
+
+footer #logo {
+  width: 150px;
+  height: auto;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+footer .copyright {
+  size: 0.9em;
+  margin-top: 10px;
+  
+  text-align: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px), (orientation: portrait) {
+  header a {
+  
+    margin-right: 20px;
+  }
+
+
+
+.mainpic {
+  
+  width: 100%;
+  height: 70%;
+
+  }
+  
+.mainpic .caption {
+    top: 40px;
+    }
+  
+#about {
+      width: 100%;
+     
+    }
+
+#about p {
+
+  width: 85%;
+}
+
+#about img {
+      width: 100%;
+    }
+
+  .month {
+    
+    width: 90%;
+    margin: auto;
+  }
+  .col {
+ 
+    width: 40vw;
+    height: 30%;
+    
+  }
+
+  .col img {
+   width: 40vw;
+   height: 20vw;
+  }
+  .small {
+    font-size: 32px;
+  }
+
+  .containerloc {
+    flex-direction: column;
+    
+    height: 42vh;
+    justify-content: space-between;
+
+  }
+  .loc {
+    
+    width: 100%;
+    height: 30%;
+
+  margin: 0 20px;
+ 
+
+  }
+ 
+
+  .locations, #loca {
+    width: 80%;
+    height: 50vh;
+    background-image: url('cc-beans.jpg');
+    background-size: fill;
+    
+}
+}
+
+
+@media only screen and (min-width:481px) and (max-width:768px), (orientation: portrait) {
+  .col {
+    
+    width: 40vw;
+  }
+  .containerloc {
+    width: 100%;
+
+  }
+
+  .col img {
+    
+    width: 100%;
+    height: auto;
+    
+  }
+  .loc {
+    
+    width: 35vw;
+    padding: 5px;
+  }
+
+  .locations {
+ 
+    
+    width: 100%;
+    height: 100vh;
+}
+}
